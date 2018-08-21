@@ -2,7 +2,7 @@
 # wine_2 = {varietal: "Gamay" ,region: "France", year:2014}
 # wine_3 = {"varietal" => "Vinho Verde", "region" => "Portugal", "Year" => 2016}
 
-Class wine
+class Wine
   def initialize(in_varietal, in_region, in_year)
     @varietal = in_varietal
     @region = in_region
@@ -22,6 +22,6 @@ Class wine
   end
 end
 
-wine_1 = wine.new("Pino", "CA", 2015)
+wine_1 = Wine.new("Pino", "CA", 2015)
 wine_1.info
 
