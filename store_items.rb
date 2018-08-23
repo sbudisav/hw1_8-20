@@ -6,6 +6,7 @@ class Drink
     @alcoholic = input_information[:alcoholic]
     @what_is = input_information[:what_is]
   end
+  
   def info
     puts "This #{what_is} will last #{shelf_life} before spoiling."
     if alcoholic == true
